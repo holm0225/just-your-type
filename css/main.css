@@ -36,8 +36,62 @@ html {
   color: white;
 }
 
-@media only screen and (min-width: 25em) {
+.okay {
+  font-size: 2rem;
+}
 
+.anybody {
+  font-size: 2rem;
+}
+
+.lifetime {
+  font-size: 5rem;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+}
+
+.less {
+  font-size: 1.2rem;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+}
+
+.cite {
+  font-size: .9rem;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10rem;
+  color: #666666;
+  font-family: 'Vollkorn', serif;
+}
+
+.absolute2 {
+  position: absolute;
+  z-index: -1000;
+}
+
+@media only screen and (min-width: 15em) {
+
+  .okay {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 28em) {
+
+  .okay {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -45,7 +99,14 @@ html {
 }
 
 @media only screen and (min-width: 60em) {
+  .blue {
+    background-color: #002751;
+  }
 
+  .black {
+    background-color: #002751;
+    color: black;
+  }
 }
 
 @media only screen and (min-width: 90em) {
