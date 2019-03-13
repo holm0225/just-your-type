@@ -18,3 +18,36 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.blue {
+  background-color: #006ead;
+  text-align: center;
+}
+
+.black {
+  color: white;
+  background-color: #000000;
+  text-align: center;
+}
+
+.death {
+  text-align: center;
+  background-color: #002751;
+  color: white;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
+}
