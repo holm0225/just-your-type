@@ -35,14 +35,19 @@ html {
   text-align: center;
   background-color: #002751;
   color: white;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  margin: 0 5em;
+  padding: 1.5em 0 2em 0;
 }
 
 .okay {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .anybody {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .lifetime {
@@ -63,10 +68,7 @@ html {
   font-size: .9rem;
   font-family: 'Vollkorn', serif;
   font-weight: bold;
-}
-
-hr {
-  max-width: 50em;
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 15em) {
@@ -89,6 +91,7 @@ hr {
 }
 
 @media only screen and (min-width: 60em) {
+
   .blue {
     background-color: #002751;
   }
@@ -100,6 +103,10 @@ hr {
 
   body {
     background-color: #002751;
+  }
+
+  .okay {
+    font-size: 2rem;
   }
 }
 
